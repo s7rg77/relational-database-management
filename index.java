@@ -164,7 +164,7 @@ public class Form extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // &lt;editor-fold defaultstate="collapsed" desc="Generated Code"&gt;//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
 
     private void initComponents() {
 
@@ -338,7 +338,7 @@ public class Form extends javax.swing.JFrame {
         txtidm.getAccessibleContext().setAccessibleName("");
 
         pack();
-    }// &lt;/editor-fold&gt;//GEN-END:initComponents
+    }// </editor-fold>//GEN-END:initComponents
 
     private void txtcodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtcodeActionPerformed
 
@@ -353,7 +353,7 @@ public class Form extends javax.swing.JFrame {
             da.setIdmanager(Integer.parseInt(txtidm.getText()));
             Database db = new Database();
             int n = db.insert(da);
-            if (n &gt; 0) {
+            if (n > 0) {
                 JOptionPane.showMessageDialog(this,
                         "insercion realizada");
             } else {
@@ -393,7 +393,7 @@ public class Form extends javax.swing.JFrame {
                 da.setCode(Integer.parseInt(txtcode.getText()));
                 Database db = new Database();
                 int n = db.delete(da);
-                if (n &gt; 0) {
+                if (n > 0) {
                     JOptionPane.showMessageDialog(this,
                             "borrado realizado");
                 } else {
@@ -424,7 +424,7 @@ public class Form extends javax.swing.JFrame {
             da.setIdmanager(Integer.parseInt(txtidm.getText()));
             Database db = new Database();
             int n = db.modify(da);
-            if (n &gt; 0) {
+            if (n > 0) {
                 JOptionPane.showMessageDialog(this,
                         "modificación realizada");
             } else {
